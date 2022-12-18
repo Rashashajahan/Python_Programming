@@ -19,8 +19,3 @@ if(len(longest_german_word)>len(longest_hungarian_word)):
         print(f"{strong_password} is longest.\n")
 else:
     print(f"{longest_hungarian_word} is longest.\n")
-# Now that you know what the longest word is, print it out in an f-string below
-print(len(longest_finnish_word))
-print(len(longest_german_word))
-print(len(longest_hungarian_word))
-print(len(strong_password))
