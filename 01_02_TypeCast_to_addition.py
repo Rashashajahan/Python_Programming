@@ -17,4 +17,3 @@ e=float(c)
 print(type(e))
 ## What kind of error does python give?
         #anser:invalid literal
-## What do you think the reason is?
