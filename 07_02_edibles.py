@@ -6,3 +6,8 @@
 # What dish can you make from these ingredients? :)
 
 s = "They grappled with their leggins before going to see the buttercups flourish."
+food1=s[5:9]+s[11]
+food2=s[7:12]
+food3=s[-10:-4]
+food4=s[-21:-14]
+print(food1, food2, food3, food4)
