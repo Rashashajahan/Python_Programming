@@ -1,17 +1,13 @@
-# Exercise
-
 # Write a python program to print all prime numbers between 0 to 100 , and print how many prime numbers are there
-# if you don't know an algorithm to check for primes
-# ask Dr. Kurunandan Sir
-# google it
-for num in range(1,101):
-    count=0
-for i in range (2,(num/2)):
-    if(num%i != 0): 
-        print(f"prime numbers: {num}")
-        count+=1
-    else:
-        continue
-print(f"number of prime numbers: {count}")
-
-    
+def prime_numbers(num):
+    listt=[]
+    if(num>1):
+        for i in range(2,num+1):
+            count=0
+            for j in range(1,i+1):
+                if(i%j==0):
+                    count+=1
+            if (count==2):
+                listt.append(i)
+        return listt, (f"Number of prime number is {len(listt)}")
+print(prime_numbers(100)) 
