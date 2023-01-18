@@ -10,13 +10,10 @@ print(not(b))
 a = True
 b = False
 # print the value of a OR b
-
-
+print(a or b)
 # Logical Operation_#
 # Logical Operation AND
-
 a = True
 b = False
-
 # print the value of a AND b
-
+print(a and b)
